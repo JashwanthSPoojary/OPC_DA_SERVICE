@@ -4,5 +4,5 @@
 
 --> Simple Node.js Kafka Consumer + Prisma ORM + PostgreSQL
 
-Add ons : 
+Add ons ( Need to do ) : 
 1. Batching , validation , Error handling
