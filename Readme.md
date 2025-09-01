@@ -1,8 +1,10 @@
-```mermaid
-graph TD
-    A[C# OPC_DA_BRIDGE <br/>(Kafka Producer)] --> B[Kafka Broker <br/>(Docker Container)]
-    B --> C[Node.js Kafka Consumer <br/>+ Prisma ORM + PostgreSQL]
-
+C# OPC_DA_BRIDGE (Kafka Producer)
+          |
+          v
+   Kafka Broker (Docker Container)
+          |
+          v
+Node.js Kafka Consumer + Prisma ORM + PostgreSQL
 
 
 Add ons : 
