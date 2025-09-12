@@ -1,11 +1,8 @@
-Created simple C# OPC_DA_BRIDGE  ( as KAFKA PRODUCER ) . 
-              |
-              ^
-KAFKA Broker ( docker container )
-              |
-              ^
-Created simple KAFKA Consumer ( node js app ) with Prisma ORM +Postgres
+--> Simple C# OPC_DA_BRIDGE (Kafka Producer)
 
+--> Kafka Broker (Docker Container)
 
-Add ons : 
+--> Simple Node.js Kafka Consumer + Prisma ORM + PostgreSQL
+
+Add ons ( Need to do ) : 
 1. Batching , validation , Error handling
