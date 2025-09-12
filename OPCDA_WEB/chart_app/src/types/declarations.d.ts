@@ -1,0 +1,1 @@
+declare module 'settings_app/App';
