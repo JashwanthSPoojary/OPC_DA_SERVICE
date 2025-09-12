@@ -34,6 +34,11 @@ const Chart = ({ data }: ChartProps) => {
     yAxis: {
       title: {
         text: "Value",
+        align: "low",
+        style: {
+          fontWeight: "bold",
+          color: "#fff", 
+        },
       },
     },
     series: [
